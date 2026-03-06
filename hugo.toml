@@ -1,11 +1,11 @@
 baseURL = 'https://www.wankyandpretentious.com/'
 languageCode = 'en-us'
 title = 'Wanky and Pretentious'
-
-
+  
 [params]
   description = 'This is a description'
   subtitle = 'A short subtitle'
+  email = "wp@example.com"
   paginate = 10
 
 [taxonomies]
@@ -54,7 +54,6 @@ title = 'Wanky and Pretentious'
     rssFeedDescription = "summary"
 
   [languages.en-us.params.author]
-    avatar = "avatar.jpg"
     intro = "Wanky and Pretentious"
     name = "W&P"
     description = "Insufferability Incarnate"
