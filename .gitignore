@@ -1,0 +1,8 @@
+# Macbook trash
+.DS_Store
+
+# Hugo stuff
+.hugo_build.lock
+.hvm
+public/
+resources/

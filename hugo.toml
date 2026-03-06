@@ -1,0 +1,64 @@
+baseURL = 'https://www.wankyandpretentious.com/'
+languageCode = 'en-us'
+title = 'Wanky and Pretentious'
+
+
+[params]
+  description = 'This is a description'
+  subtitle = 'A short subtitle'
+  paginate = 10
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[module]
+  [[module.imports]]
+    path = "github.com/hugo-sid/hugo-blog-awesome"
+
+
+[languages.en-us]
+  languageName = "English"
+  languageCode = "en-us"
+  contentDir = "content"   
+  weight = 1
+
+  [languages.en-us.menu]
+    [[languages.en-us.menu.main]]
+      pageRef = "/"
+      name = "Home"
+      url = "/"
+      weight = 10
+
+    [[languages.en-us.menu.main]]
+      pageRef = "posts"
+      name = "Posts"
+      url = "/posts/"
+      weight = 20
+
+    [[languages.en-us.menu.main]]
+      pageRef = "about"
+      name = "About"
+      url = "/about/"
+      weight = 30
+
+  [languages.en-us.params]
+    sitename = "Wanky and Pretentious"
+    defaultColor = "auto"   
+    description = "This is a description"
+    mainSections = ['posts']
+    toc = false
+    tocOpen = false
+    goToTop = true
+    dateFormat = ""
+    rssFeedDescription = "summary"
+
+  [languages.en-us.params.author]
+    avatar = "avatar.jpg"
+    intro = "Wanky and Pretentious"
+    name = "W&P"
+    description = "Insufferability Incarnate"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
