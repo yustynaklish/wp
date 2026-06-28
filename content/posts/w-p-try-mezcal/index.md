@@ -1,10 +1,10 @@
 +++
 date = '2026-06-28T14:53:00+11:00'
-draft = true
+draft = false
 title = 'W&P try Mezcal'
 +++
 
-Last Friday we stopped by [Palomino Lounge Enmore](https://www.palominolounge.com.au/) cause Wanky walked by the bar, asked if they have patience for "bullshit", and they kinda-sorta said yes. 
+Last Friday we stopped by [Palomino Lounge Enmore](https://www.instagram.com/palomino_lounge_enmore/) cause Wanky walked by the bar, asked if they have patience for "bullshit", and they hesitantly said yes while laughing nervously. 
 
 Great people, highly recommend how excited they were to take us through things. Also patient considering the intro.
 
